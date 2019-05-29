@@ -1,1 +1,64 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<title>Garage@EEE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<br/>
+
+<!--whoever is editing the Garage@EEE website, please feel free to remove any and every single existing content. These are only for filler.-->
+
+<!--<h1 style="text-align: center; font-weight: bold; font-size: 20px"> Welcome to</h1>-->
+<img src="Garage@EEE Logo (No Background).png" style="width: 20%; margin-left: auto; margin-right: auto; display: block">
+<br/>
+<p style="width: 50%; margin-left: auto; margin-right: auto; text-align: center; text-align: justify">An informal student self-run learning platform, Garage@EEE aims to cultivate entrepreneurial and innovative spirit by empowering students like ourselves to take ownership of our own learning, our projects, as well as our paths to self-discovery. It is also a place where we hope that students can bridge the gap between classroom and experiential learning.
+As Garage@EEE Ambassadors, we are passionate in what we do and we grow as a family. <strong>Stay tuned and catch us in action!</strong></p>
+
+<div class="w3-content w3-section" style="max-width:50%">
+  <img class="mySlides" src="IMG_3825.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_3831.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_3832.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_0001.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_1025.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_1309.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_1549.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_2039.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_3844.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_5765.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_6093.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_7407.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_8198.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_8994.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_9133.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_9134 2.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_9359.jpg" style="width:100%">
+  <img class="mySlides" src="Garage@EEE Logo (No Background).png" style="width:100%">
+</div>
+
+<p style="text-align: center; width: 100%; font-size: 10px; position: fixed; left: 0; bottom: 0">50 Nanyang Ave, Nanyang Technological University, School of Electrical and Electronic Engineering (S1-B3c-26), Singapore 639798</p>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
